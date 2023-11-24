@@ -1,0 +1,13 @@
+// © All Right Reserved GriecoNardocciMilani SNC
+
+
+
+
+14.03.2018
+Acquisto prodotti necessari per lo svolgimento del progetto.
+
+15.03.2018
+Tutto tace in quel di SPV.
+
+19.03.2018
+Unboxing prodotti acquistati, installazione OS Rasbian su Raspberry , settaggio ip statico,connessione Wi-Fi e primi test sulla Raspberry Camera.

@@ -1,0 +1,67 @@
+<!--
+Build: 09187323
+Author: B1akF1Re23, nardoz0918, Rahios
+-->
+
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title id="title">Raspberry Pi Video Home Survellaince</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="assets/css/styles.css" rel="stylesheet"/>
+		<!--
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		-->
+		<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+	</head>
+
+	<body>
+		<div id="logo">
+			<h1 class='title'><span>Raspberry</span> <span id="pi" >Pi </span> </h1>
+			<div class="description" style="font-family: 'Segoe UI',Arial,sans-serif"> HOME SURVELLAINCE</div>
+		</div>
+	
+		<ul id='navBar'>
+			<li id='stream' class='nav'><a class='active'>Stream</a></li>
+			<li id='files' class='nav'><a href="files.html">Files</a></li>
+			<li id='about' class='nav'><a href="about.html">About</a></li>
+			<li id='other' style="float:right" class='nav'><a href="other.html">Other Projects</a></li>
+		</ul>
+		
+
+		<div id="main" align="center">
+			
+			<img src="http://raspberrypi.local:8080" id='refresh'/>
+			<br/><br/>
+			<input type="range" min="-90" max="90" value="0" class="slider" id="myRange">
+			<br/><br/><br/>
+			<input type="text" id="angle">
+			<br/><br/>
+			<img src="assets/images/Photo.png" width="40px" height="40px" class='butt'id='photo'/>
+			<img src="assets/images/Movie.png" width="40px" height="40px" class='butt'id='video'/>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+
+		<script type="text/javascript" src="assets/js/utils.js"></script>
+				
+	</body>
+
+	<footer>
+		<p>
+			&copy;	All right reserved GriecoNardocciMilani SNC
+		</p>
+		<!--
+		<p>
+			Se hai una parete grande, cosa usi? un pennello grande o un grande pennello?<br>
+			<b>PENNELLO CINGHIALE</b>
+		</p>
+		-->
+	</footer>
+
+</html>
+
+
